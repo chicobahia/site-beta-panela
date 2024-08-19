@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap');
+
+:root {
+    --cor0: #403E3F;
+    --cor1: #A68881;
+    --cor2: #733630;
+    --cor3: #592B27;
+    --cor4: #F2F2F2;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Yeseva One", serif;
+    --fonte-escolhida: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--cor2);
+    color: var(--cor4);
+    min-height: 130px;
+}
+
+header > p {
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    text-align: center;
+    padding-top: 30px;
+}
+
+nav > a {
+    color: var(--cor0);
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.167);
+    padding: 30px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1200px;
+    margin-bottom: 15px;
+    
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.7em;
+}
+
+h2, h3 {
+    font-family: var(--fonte-escolhida);
+}
+
+div.contato {
+    text-align: center;
+    float: left;
+    width: 49%;
+    padding-top: 10px;
+   
+}
+
+div.contato > img {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin: auto;
+}
+
+div.contato > a {
+    text-decoration: none;
+}
+
+div.contato2 {
+    text-align: center;
+    float: right;
+    width: 51%;
+    padding-top: 30px;
+}
+
+
+footer {
+    background-color: #403E3F;
+    color: lightgray;
+    height: 150px;
+}
+
+footer > p.rodape {
+    text-align: center;
+    padding-top: 8em;
+    
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #A68881;
+    font-weight: bolder;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
